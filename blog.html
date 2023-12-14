@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的博客</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 20px;
+        text-align: center;
+      }
+
+      header {
+        background-color: #3498db;
+        padding: 10px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      main {
+        margin-top: 20px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="blogTitle">我的博客</header>
+    <main>
+      <h2>博客内容</h2>
+      <p>这是我的第一篇博客文章。欢迎阅读！</p>
+    </main>
+
+    <script>
+      // JavaScript 代码，点击博客名字时弹出提示
+      document
+        .getElementById("blogTitle")
+        .addEventListener("click", function () {
+          alert("哈哈哈，你真逗");
+        });
+    </script>
+  </body>
+</html>
